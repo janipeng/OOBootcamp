@@ -1,0 +1,17 @@
+
+#1
+
+given a super parking boy, two parking lot, parking lot A's capacity is 2 but 1 space available, parking lot B's capacity is 1,
+
+when a car to park
+
+then this car should park to parking lot B
+
+
+#1
+
+given a super parking boy, two parking lot, parking lot A's capacity is 2 but 1 space available, parking lot B's capacity is 1, and One car pick up form parking lot A
+
+when a car to park
+
+then this car should park to parking lot A

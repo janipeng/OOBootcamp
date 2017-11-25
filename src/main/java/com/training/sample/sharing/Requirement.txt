@@ -1,0 +1,13 @@
+
+1.
+given a
+when arrange a
+then a
+
+2.given ab
+when arrange ab
+then ab,ba
+
+3.given abc
+when arrange abc
+then abc,acb, bac,bca, cab,cba

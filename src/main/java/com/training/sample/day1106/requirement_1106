@@ -1,0 +1,48 @@
+
+
+20171106
+
+#1
+
+Given 1 parking boy, 1 parking lot, 1 car to park This parking lot is not full
+
+When the car to park
+
+Then parking success to No.1 parking lot
+
+
+#2
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 parking lot is full, No.2 parking lot is not full
+
+When the car parking
+
+Then parking success to No.2
+
+#3
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 and No.2 parking lot are full
+
+When the car to park
+
+Then parking fail
+
+#4
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 parking lot is full but No.2 is not full
+
+When No.2 car to park
+
+Then No.2 car parking success to No.1 parking lot.
+
+
+
+
+
+
+
+
+
+
+
+

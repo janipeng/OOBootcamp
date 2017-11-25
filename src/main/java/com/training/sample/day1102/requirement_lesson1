@@ -1,0 +1,124 @@
+Given two length a,bwhen a length > b,
+ Then return a
+else  return b;
+
+Give two length a,b
+ When a > b
+Then a = xb
+ else b = xa
+
+Given a:10 b:100
+ when compare(a, b)
+then return a and 10a
+
+
+Given 2 length a b
+    convert to common unit
+if a > b
+then a
+
+Given 2 length 5m ,10cm
+ When Get the longer one
+Then get 5m
+
+
+20171102
+
+1.
+
+1.1
+Parking Car:
+
+given
+A parking lot
+A car
+
+when
+Park car
+
+then
+Park success
+
+
+1.2
+Taking Car:
+
+given
+A parking lot
+Parking a car
+
+when
+Take car
+
+Then
+Take car success
+
+1.3
+
+Given
+Initiation a parking lot size is 10
+parking a car and return a licence number
+
+when
+Take car with correct licence number
+
+Then
+Take car success
+
+
+
+20171106
+
+Given 1 parking boy, 1 parking lot, 1 car to park
+    This parking lot is not full
+
+When the car parking
+
+Then parking success to No.1
+
+
+#1
+
+Given 1 parking boy, 2 parking lot, 1 car to park
+    No.1 parking lot is not full
+
+When the car parking
+
+Then parking success to No.1
+
+#2
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 parking lot is full, No.2 parking lot is not full
+
+When the car parking
+
+Then parking success to No.2
+
+#3
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 and No.2 parking lot are full
+
+When the car to park
+
+Then parking fail
+
+#4
+
+Given 1 parking boy, 2 parking lot, 1 car to park, No.1 parking lot is full but No.2 is not full
+the car park to No.2 parking lot.    1 car take from No.1 parking lot.
+
+When No.2 car to park
+
+Then No.2 car parking success to No.1 parking lot.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+
+
+#1
+
+given a parking manager, 1 parking lot, 1 car
+
+when a car to park
+
+then this car should park success
+
+
+#2
+
+given a parking manager, 1 parking lot, 1 car parked
+
+when pick up that car
+
+then this car should pick success
+
+#3
+
+given a parking manager, 1 car, 1 parking boy with 1 parking lot
+
+when a car to park
+
+then the parking boy park car success
+
+#4
+
+given a parking manager, 1 car, 1 smart parking boy with 1 parking lot
+
+when a car to park
+
+then the parking boy park car success
+
+#5
+
+given a parking manager, 1 car, 1 super parking boy with 1 parking lot
+
+when a car to park
+
+then the parking boy park car success
+
+
+#6
+
+given a parking manager, 1 car, 2 parking lot A with capacity 1 and parking lot B with capacity 1,
+1 normal parking boy, 1 smart parking boy, 1 super parking boy
+
+when 2 cars to park
+
+then 2 cars park success and can pick up success

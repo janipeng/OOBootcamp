@@ -1,0 +1,84 @@
+
+
+#1
+
+given 1 parking director, 1 parking manager, 1 parking lot A capacity 2, and parked 1 car
+
+when parking director needs report
+
+then report
+
+M 1 1
+ P 1 1
+
+#2
+
+given 1 parking director, 1 parking manager with 1 parking lot A capacity is 2, parked 1 car
+, 1 parking boy with 1 parking lot B capacity is 2, and parked 1 car
+
+when parking director needs report
+
+then report
+
+M 2 2
+ P 1 1
+ B 1 1
+  P 1 1
+
+
+
+#3
+
+given 1 parking director, 1 parking manager with 1 parking lot A capacity is 2, parked 1 car,
+1 parking boy boyA with 1 parking lot B capacity is 2, and parked 1 car,
+1 parking boy boyB with 1 parking lot C capacity is 1
+
+when parking director needs report
+
+then report
+
+M 2 3
+ P 1 1
+ B 1 1
+  P 1 1
+ B 0 1
+  P 0 1
+
+
+#4
+
+given 1 parking director, 1 parking manager with 1 parking lot A capacity is 2, parked 1 car, 1 parking boy boyA with 1 parking lot B capacity is 2, and parked 1 car,
+1 smart parking boy boyB with 1 parking lot C capacity is 1, 1 super parking boy boyC with 1 parking lot D capacity is 1,
+
+when parking director needs report
+
+then report
+
+M 2 4
+ P 1 1
+ B 1 1
+  P 1 1
+ B 0 1
+  P 0 1
+ B 0 1
+  P 0 1
+
+
+#5
+
+given 1 parking director, 1 parking manager with 1 parking lot A capacity is 2, parked 1 car, 1 parking boy boyA with 1 parking lot B capacity is 2, and parked 1 car,
+1 smart parking boy boyB with 1 parking lot C capacity is 1, 1 super parking boy boyC with 2 parking lot D capacity is 1 and parking boy boyD capacity is 1 and parked 1 car,
+
+when parking director needs report
+
+then report
+
+M 3 4
+ P 1 1
+ B 1 1
+  P 1 1
+ B 0 1
+  P 0 1
+ B 1 1
+  P 0 1
+  p 1 0

@@ -1,0 +1,26 @@
+
+1.
+
+given a smart parking boy 2 parking lot A capacity 1, B capacity 2
+
+when a car to park
+
+then park to parking lot B
+
+2.
+
+given a smart parking boy 2 parking lot A capacity 2, B capacity 2
+
+when two car to park
+
+then first park to parking lot A second car park to B
+
+
+3.
+
+given a smart parking boy 2 parking lot A capacity is 1, B capacity is 2, first car carA park to parking lot B, carA pick up
+
+when another car carB to park
+
+then carB park to parking lot B
+
